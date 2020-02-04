@@ -1,5 +1,5 @@
  from ota_update.main.ota_updater import OTAUpdater
- from machine importe Pin
+ from machine import Pin
  from time import sleep
 
  def download_and_install_update_if_available():
