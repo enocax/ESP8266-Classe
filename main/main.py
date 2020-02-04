@@ -10,9 +10,9 @@
  def start():
      p5=Pin(5, Pin.OUT)
     while 1:
-     p5.on
+     p5.on()
      sleep(2)
-     p5.off
+     p5.off()
      
 
 
