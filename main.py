@@ -1,4 +1,4 @@
- from ota_update.main.ota_updater import OTAUpdater
+ from main.ota_updater import OTAUpdater
  from machine import Pin
  from time import sleep 
 
