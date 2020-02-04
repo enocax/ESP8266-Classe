@@ -11,9 +11,9 @@
      # your custom code goes here. Something like this: ...
     p2= Pin(5, Pin.OUT)
     while 1:
-        p2.on
+        p2.on()
         sleep(2)
-        p2.off
+        p2.off()
 
 
  def boot():
