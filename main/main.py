@@ -8,7 +8,7 @@
 
 
  def start():
-     p2=Pin(2, Pin.OUT)
+     p4=Pin(4, Pin.OUT)
     while 1:
      p2.on
      sleep(2)
