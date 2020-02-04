@@ -3,7 +3,7 @@
  from time import sleep 
 
  def download_and_install_update_if_available():
-     o = OTAUpdater('https://github.com/enocax/ESP8266-Classe')
+     o = OTAUpdater('https://github.com/enocax/ESP8266-Classe.git')
      o.download_and_install_update_if_available('Raspberry', 'raspberry')
 
 
